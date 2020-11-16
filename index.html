@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="random">
+            <button>Get New Quotes</button>
+        </div>
+        <div class="display">
+            <p class="quotes">'Old is Gold'</p>
+            <p class="writter"> </p>
+        </div>
+    </div>
+    <div class="table">
+        <div class="search">
+            <input type="text" id="myInput" placeholder=" Search quotes" onkeyup="searchFunction()">
+
+        </div>
+        <div class="quoteList">
+            <table id="myTable" class="table mt-5 table-hover ">
+                <thead>
+                    <tr>
+                        <th scope="col">Quotes</th>
+                        <th scope="col">Author</th>
+
+                    </tr>
+                </thead>
+                <tbody id="data-c">
+
+                </tbody>
+            </table>
+            <div class="pagination-wrapper">HELLOE</div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
